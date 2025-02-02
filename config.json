@@ -5,18 +5,18 @@
     "mongodbUri": "mongodb+srv://codex-us2:codex-us2@codex-us2.62zm1.mongodb.net/?retryWrites=true&w=majority&appName=codex-us2",
     "geniusToken": "0CHr9jtPjR7EKraXUVv6__8ELmEwFeUwt5vYAhk-is_fGOq-10-epdMzESkMPUnf",
     "excessCommands": {
-        "utility": true,
-        "other": true,
-        "hentai": true,
-        "lavalink": true,
-        "troll": true
+        "utility": false,
+        "other": false,
+        "hentai": false,
+        "lavalink": false,
+        "troll": false
     },
     "categories": {
-        "anime": true,
+        "anime": false,
         "basic": true,
-        "utility": true,
-        "moderation": true,
-        "fun": true,
+        "utility": false,
+        "moderation": false,
+        "fun": false,
         "distube music": true,
         "setups": true
     },
