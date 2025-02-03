@@ -1,13 +1,15 @@
 const { ActivityType } = require('discord.js');
-
+const colors = require('../UI/colors/colors');
 module.exports = {
     name: 'ready',
     once: true,
     execute(client) {
   
         const activities = [
-            { name: 'ʙᴜᴋᴋᴜᴢ ', type: ActivityType.Watching },
-         
+            { name: 'Netflix', type: ActivityType.Watching },
+            { name: 'GTA VI', type: ActivityType.Playing },
+            { name: 'on YouTube', type: ActivityType.Streaming },
+            { name: 'Spotify', type: ActivityType.Listening },
         ];
 
      
@@ -37,6 +39,9 @@ module.exports = {
         
         setTimeout(() => {
             setActivityAndStatus();
+            console.log('\n' + '─'.repeat(40));
+            console.log(`${colors.magenta}${colors.bright}🔗  ACTIVITY STATUS${colors.reset}`);
+            console.log('─'.repeat(40));
             console.log('\x1b[31m[ CORE ]\x1b[0m \x1b[32m%s\x1b[0m', 'Bot Activity Set Successful ✅');
         }, 2000);
 
