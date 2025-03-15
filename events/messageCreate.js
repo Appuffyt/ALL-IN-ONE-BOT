@@ -55,7 +55,7 @@ module.exports = {
                 .setAuthor({
                     name: 'Level Up!',
                     iconURL: cmdIcons.rippleIcon,
-                    url: 'https://discord.gg/xQF9f9yUEM', 
+                    url: 'https://discord.gg/CJ8Y58FH', 
                 })
                 .setDescription(`🎉 **Congratulations, ${message.author}!**\nYou've reached **Level ${level}**!`)
                 .setThumbnail(message.author.displayAvatarURL({ format: 'png', dynamic: true }))
