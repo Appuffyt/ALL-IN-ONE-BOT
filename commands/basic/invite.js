@@ -17,7 +17,7 @@ module.exports = {
             .setAuthor({ 
                 name: lang.inviteTitle, 
                 iconURL: lang.inviteImageURL,
-                url: "https://discord.gg/xQF9f9yUEM"
+                url: "https://discord.gg/CJ8Y58FH"
             })
             .setDescription(lang.inviteDescription.replace('{inviteURL}', inviteURL))
             .setTimestamp();
