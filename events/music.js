@@ -107,7 +107,7 @@ module.exports = (client) => {
                 .setAuthor({
                     name: "Queue is Empty",
                     iconURL: musicIcons.alertIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/CJ8Y58FH"
                 })
                 .setDescription('**Leaving voice channel!**')
                 .setFooter({ text: 'Let the Beat Drop!', iconURL: musicIcons.footerIcon })
