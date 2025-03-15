@@ -34,7 +34,6 @@
       "host": "new-york-node-1.vortexcloud.xyz",
       "port":  9376,
       "secure": false
-
         }
     }, 
     "spotifyClientId": "f71a3da30e254962965ca2a89d6f74b9",
