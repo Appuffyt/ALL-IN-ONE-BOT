@@ -1,8 +1,9 @@
+
 {
     "token": "",
     "language": "en",
     "prefix": "!",
-    "mongodbUri": "mongodb+srv://shiva:shiva@musicbotyt.ouljywv.mongodb.net/?retryWrites=true&w=majority",
+    "mongodbUri": "mongodb+srv://codex-in1:codex-in1@codex-in1.1bgxp.mongodb.net/?retryWrites=true&w=majority",
     "geniusToken": "0CHr9jtPjR7EKraXUVv6__8ELmEwFeUwt5vYAhk-is_fGOq-10-epdMzESkMPUnf",
     "excessCommands": {
         "utility": true,
@@ -27,17 +28,16 @@
         "distube music": true,
         "setups": true
     },
-  "lavalink": {
+     "lavalink": {
         "identifier": "Avinan",
-        "password": "pokemon",
-        "host": "new-york-node-1.vortexcloud.xyz",
-        "port":  9376,
-        "secure": false
-      }
-
+      "password": "pokemon",
+      "host": "new-york-node-1.vortexcloud.xyz",
+      "port":  9376,
+      "secure": false
 
         }
     }, 
     "spotifyClientId": "f71a3da30e254962965ca2a89d6f74b9",
     "spotifyClientSecret": "199a619d22dd4e55a4a2c1a7a3d70e63"
 }
+
