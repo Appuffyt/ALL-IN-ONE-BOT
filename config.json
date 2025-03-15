@@ -27,12 +27,14 @@
         "distube music": true,
         "setups": true
     },
-     "lavalink": {
-        "lavalink": {
-      "password": "prplmoe.me",
-      "host": "lavav4.prplmoe.me",
-      "port": 1118,
-      "secure": false
+  "lavalink": {
+        "identifier": "Avinan",
+        "password": "pokemon",
+        "host": "new-york-node-1.vortexcloud.xyz",
+        "port":  9376,
+        "secure": false
+      }
+
 
         }
     }, 
